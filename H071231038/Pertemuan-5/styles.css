@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin-top: 15px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: white;
+    background-color: rgb(5, 51, 5);
+}
+
+
+h1 {
+    color: goldenrod;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+
+
+p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    padding: 10px;
+    border: none;
+    color: rgb(5, 51, 5);
+    font-weight: bold;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: goldenrod;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #b18005;
+}
+
+
+
+
+/* CARD CONTAINERS */
+#botCard img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+#playerCards img {
+    width: 100px;
+    margin: 0 10px;  
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.botstats {
+    display: flex;
+    align-items: flex-end;
+}
+
+.stats p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.stats {
+    margin-bottom: 20px;
+}
+
+/* LAYOUT FOR GAME BOARD */
+.game-board {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+#chips-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.chip {
+    margin: 15px;
+}
+
+.chip img {
+    width: 50px;
+}
+
+/* ATUR CARD LAYOUT */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botCard, #playerCards {
+    display: flex;
+    justify-content: center;
+}

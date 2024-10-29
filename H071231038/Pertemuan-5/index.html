@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>BLACKJACK</h1>
+    <div class="stats">
+        <p>Bot Sums: <span id="botTotal">0</span></p>
+        <p>My Sums: <span id="playerTotal">0</span></p>
+        <p>My Money: $<span id="money">5000</span></p>
+    </div>
+
+    <div id="game">
+        <div class="game-board">
+            <div class="bot-cards">
+                <p>Bot Cards</p>
+                <div id="botCard"></div>
+            </div>
+            <div class="player-cards">
+                <p>Your Cards</p>
+                <div id="playerCards"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="startGame">Start Game</button>
+        <button id="hit" disabled>Take A Card</button>
+        <button id="stand" disabled>Hold Card</button>
+    </div>
+
+    <p>Current Bet: $<span id="currentBet">0</span></p>
+
+    <div id="chips-container">
+        <div class="chip" data-value="10"><img src="Assets/Images/chip10.png" alt="10"></div>
+        <div class="chip" data-value="20"><img src="Assets/Images/chip20.png" alt="20"></div>
+        <div class="chip" data-value="50"><img src="Assets/Images/chip50.png" alt="50"></div>
+        <div class="chip" data-value="100"><img src="Assets/Images/chip100.png" alt="100"></div>
+        <div class="chip" data-value="500"><img src="Assets/Images/chip500.png" alt="500"></div>
+    </div>
+
+    
+    <script src="script.js"></script>       
+</body>
+</html>

@@ -1,0 +1,33 @@
+.hero {
+    background: url('Assets/images/hero.png');
+    background-size: cover;
+    color: white;
+    padding: 200px 0;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #3b3b3b;
+    color: white
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.container{
+    color: black;
+}
+
+.features{
+    background-color: rgb(245, 243, 242);
+}
+
+.features img{
+    object-fit: cover;
+}
+
